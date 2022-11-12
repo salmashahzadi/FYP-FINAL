@@ -37,8 +37,8 @@ const SplashScreen = ({navigation}) => {
   return (
     <Onboarding
       // SkipButtonComponent={Skip}
-      onSkip={() => navigation.replace('NavigationAuth')}
-      onDone={() => navigation.navigate('NavigationAuth')}
+      onSkip={() => navigation.replace('Auths')}
+      onDone={() => navigation.navigate('Auths')}
       pages={[
         {
           backgroundColor: '#a6e4d0',
